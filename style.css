@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#img1{
+    width: 300px;
+    border-radius: 100px 0 100px 0;
+    float: left;
+    border: solid 3px rgba(14, 77, 137);
+    margin: 0 30px 3px 0;
+    padding: 10px;
+    background-color: black; 
+    outline: solid 1px red;
+    outline-offset: 3px;
+}
+pre{
+    float: right;
+}
+body{
+    text-transform: uppercase;
+    background-color: gray;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    text-shadow: 2px 2px 10px rgba(150, 79, 140);
+}
+nav a{
+    color: cadetblue;
+    font-size: 17px;
+    padding: 3px;
+    margin: 1px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(104, 44, 44);
+    border-radius: 20px;
+    color: blueviolet;
+}
+form button, #reset12 {
+    color: crimson;
+    font-size: 10px;
+    margin: 4px;
+    padding: 4px;
+    font-weight: bold;
+    background-color: #000000;
+    border-radius: 5px;
+    border: solid 2px rgb(42, 156, 19);
+    width: 90px;
+}
+/*things like button and img display:inline-block is thier default*/
+fieldset{
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+table{
+    display: inline-block;
+}
+em{
+    position: relative;
+    /*its position to its original position*/
+    top: 30px;
+    left: 30px;
+}
+#ui{
+    position: absolute;
+    /*its position to the page+ it make (it is out of the normal flow = iy's consider as air )*/
+    left: 50px;
+    z-index: 1;
+        /*its position to z axis*/
+}
+.container{
+    border: solid 2px black;
+    display: flex;
+}
+.item{
+    border: solid 2px black;
+    margin: 5px;
+}
+/*top-right-bottom-left*/
+/*display: block; make things in one line */
+/*clear:left; make the <p> not around the <img float left>*/
+.vbn{
+    background-color: rgba(8, 94, 94);
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: solid 5px #000000;
+    outline: solid 4px rgba(216, 167, 167);
+    box-shadow: 20px 20px 11px rgb(0, 255, 136) ;
+    height: 200px;
+    overflow: auto;
+}
